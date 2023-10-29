@@ -1,0 +1,89 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    h1{
+        color: #dddddd;
+    }
+    
+    body{
+        background-image: url(star.jpg);
+        font-family: sans-serif;
+        padding: 40px;
+        color:black;
+    }
+
+    form{
+        max-width: 300px;
+        padding-top: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    
+    label{
+        margin-bottom: 4px;
+        color: #dddddd;
+    }
+    
+    label,
+    input,
+    textarea{
+        display: block;
+        width: 100%;
+    }
+
+    input,
+    textarea,
+    button{
+        border-radius: 2%;
+        padding: 4px 8px;
+        font-family: inherit;
+        font-size: 100%;
+        color: inherit;
+    }
+    
+    input,
+    textarea{
+        border: 2px solid #dddddd;
+    }
+
+    button{
+        background-color: purple;
+        color: #dddddd;
+        font-weight: bold;
+
+        border: 2px solid purple;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+    input:focus,
+    textarea:focus,
+    button:focus{
+        outline-color: purple;
+    }
+    
+    button:focus,
+    button:hover{
+        color: #dddddd;
+        color: purple;
+    }
+
+    textarea{
+        resize: vertical;
+        min-height: 100px;
+    }
+
+    
+
+
+
+    /* Estilização das divs que contêm os checkboxes */
+    div {
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    
